@@ -40,6 +40,7 @@
   git push -u origin main
   ```
 # 新しいフォルダをMergeする場合
+- unrelated errorがでる場合は以下のコマンドを入力
   ```
   git merge --allow-unrelated-histories origin/main
   ```
