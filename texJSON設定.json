@@ -1,0 +1,56 @@
+{
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "make_ptex2pdf",
+            "tools": [
+                "ptex2pdf",
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "ptex2pdf",
+            "command": "ptex2pdf",
+            "args": [
+                "-interaction=nonstopmode",
+                "-l",
+                "-ot",
+                "-u",
+                "-kanji=utf8 -synctex=1",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.statusBar.visible": true,
+    "editor.renderControlCharacters": true,
+    "files.autoGuessEncoding": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "Consolas, 'Ricty Diminished', monospace",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+        "source": "PowerShell",
+        "args": [
+            "-NoExit",
+            "-Command",
+            "chcp 65001"
+        ],
+    }
+},
+"arduino.useArduinoCli": true,
+"window.zoomLevel": 1,
+"editor.minimap.enabled": false,
+"[python]": {
+    "editor.formatOnType": true
+},
+"markdown-preview-enhanced.previewTheme": "github-light.css",
+"pandoc.pdfOptString": "--pdf-engine=lualatex -V documentclass=ltjsarticle -V luatexjapresetoption=ms",
+"markdown-preview-enhanced.enableScriptExecution": true,
+"git.autofetch": true,
+"git.confirmSync": false,
+"git.enableSmartCommit": true,
+"git.openRepositoryInParentFolders": "never"
+}
