@@ -28,23 +28,23 @@ img {
   vertical-align: bottom;
   transform: scale(0.8);
 }
-
-.design08 {
-  width: 100%;
-  text-align: center;
+table {
   border-collapse: collapse;
-  border-spacing: 0;
- }
- .design08 th {
-  padding: 10px;
-  background: #778ca3;
-  border: solid 1px #666666;
-  color: #ffffff;
- }
- .design08 td {
-  padding: 10px;
-  border: solid 1px #666666;
- }
- .design08 td:first-child {
-  background: #e9faf9;
- }
+  font-size: 73%;
+}
+ th {
+  background: #abe;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
